@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link  rel="stylesheet" href="devis.css">
+    </head>
+    <body>
+     
+     
+      <!--menu icon-->
+      <div class="menu-icon" onclick="openNav()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>  
+      </div>
+      <!--side nave -->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a   href="Acceuil.html">Acceuil</a>
+        <div class="dropdown">
+          <a>Services</a>
+          <div class="dropdown-content">
+          <a href="Dentisterie esthetique.html">Dentisterie esthetique</a>
+          <a href="endodontie.html">Endodontie</a>
+          <a href="eclaircissement dentaire.html">Eclaircissement Dentaire</a>
+          </div>
+        </div>
+        <a href="Galerie.html">Galerie</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+
+
+      <!--photo de couverture-->
+      <div class="dentisterie-esthetique-cover">
+        <img id="dentisterie-esthetique-cover" src="photo de couverture.jpg" >
+      </div>
+       <div class="Titre-Rdv-contact-form">
+          <h1> Votre Devis en quelques clics !</h1>
+       </div>
+      <div class="Rdv-contact-form">
+        <div class="Rdv-contact-form-container">
+            <form >
+          
+              <label for="fname">Nom</label>
+              <input type="text" id="fname" name="firstname" placeholder="Votre Nom...">
+          
+              <label for="lname">Prenom</label>
+              <input type="text" id="lname" name="lastname" placeholder="Votre Prenom...">
+
+              <label for="Age">Age</label>
+              <input type="number" id="Age" name="Age" placeholder="Votre Age...">
+          
+              <label for="Motif">Motif de la consultation</label>
+              <select id="Motif" name="Motif">
+                <option value="Esthetique" >Esthetique</option>
+                <option value="Douleur" >Douleur</option>
+                <option value="Soin">Soin</option>
+                <option value="Prothese">Prothese</option>
+              </select>
+
+              
+              <label for="remarque">Ajouter une remarque</label>
+              <textarea id="remarque" name="remarque" placeholder="Ajouter votre remarque.." style="height:200px"></textarea>
+              <label for="fichiers" >Avez vous des fichiers (Photos/Radios..) a ajouter ? si oui cliquez ici </label>
+              <input type="file" id="myFile" name="filename" class="file">
+            
+              <input type="submit" value="Envoyer"><p style="color: rgb(9, 255, 0);font-size: xx-large;">Un assistant vous contactera dans les plus brefs delais pour confiramtion.</p>
+          
+            </form>
+          </div>
+
+      </div>
+<div class="carte">
+    <div ><iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.925803982002!2d3.0328237147780452!3d36.74835197831714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb3ee71c8c4bd%3A0xe6192a7e5cc0f28!2sHarmony%20clinic!5e0!3m2!1sfr!2sdz!4v1646085563773!5m2!1sfr!2sdz"  allowfullscreen="" loading="lazy"></iframe></div>
+</div>
+
+      
+
+<footer>
+<DIV class="footer-services">
+  <div class="footer-logo-services">
+    <img class="footer-logo-img-services "  src="photo de couverture.jpg">
+  </div>
+  <div   class="column-footer-services" id="adresse">
+    <h4>Clinique</h4>
+    <h6>  05 Rue Omar CHICHE, Hydra</h6>
+  </div>
+  <div  class="column-footer-services" id="telephone">
+    <h4>Contactez Nous</h4>
+    
+    <h6>0697 06 29 65</h6>
+  </div>
+  <div class="column-footer-services" id="reseaux-sociaux">
+    <h4>Reseaux-sociaux</h4>
+    <a href="https://web.facebook.com/profile.php?id=100047124621986&_rdc=1&_rdr" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/dr_bouziane_amine/?hl=fr" class="fa fa-instagram"></a>
+  </div>
+  <div><h6 class="copyright">copyright 2022</h6></div>
+</DIV>
+</footer>
+        
+        <script src="js.js" async defer></script>
+    </body>
+</html>

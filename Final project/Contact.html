@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+
+      <div class="menu-icon" onclick="openNav()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>  
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a   href="Acceuil.html">Acceuil</a>
+        <div class="dropdown">
+          <a>Services</a>
+          <div class="dropdown-content">
+          <a href="Dentisterie esthetique.html">Dentisterie esthetique</a>
+          <a href="endodontie.html">Endodontie</a>
+          <a href="eclaircissement dentaire.html">Eclaircissement Dentaire</a>
+          </div>
+        </div>
+        <a href="Galerie.html">Galerie</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+
+       
+      <!-- The video -->
+      <div class="container-video">
+             <video autoplay muted loop id="myVideo"  >
+                <source src="harmony video.mp4" type="video/mp4">
+             </video>
+  
+  <!-- Optional: some overlay text to describe the video -->
+            <div class="content">
+                 <h1>Nous rendre visite ?</h1>
+           </div>
+     </div>
+
+     <div class="row">
+      <div class="column">
+        <div class="heures-travail">
+          <svg id="clock"style="width: 4em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/></svg>
+          <h2>7j/7 </h2>
+          <h3>De 08h00 à 16h00 </h3>
+          <h4>Sur rendez-vous</h4>
+          <svg style="width: 2em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
+          <h1>0697 06 29 65</h1>
+          <span>
+            <a href="https://web.facebook.com/profile.php?id=100047124621986&_rdc=1&_rdr" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/dr_bouziane_amine/?hl=fr"  class="fa fa-instagram"></a>
+          </span>
+        </div>
+
+      </div>
+      <div class="column">
+        <h1 id="parlez-nous">Parlez nous !</h1>
+        <div class="container">
+          <form >
+        
+            <label for="fname">Nom</label>
+            <input type="text" id="fname" name="firstname" placeholder="Nom..">
+        
+            <label for="lname">Prenom</label>
+            <input type="text" id="lname" name="lastname" placeholder="Prenom..">
+
+            <label for="lname">Email</label>
+            <input type="email" id="lname" name="lastname" placeholder="Email..">
+
+            <label for="lname">Telephone</label>
+            <input type="number" id="lname" name="lastname" placeholder="Numero de telephone..">
+        
+            <label for="subject">Votre message</label>
+            <textarea id="subject" name="subject" placeholder="Ecrivez votre message.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Envoyez">
+        
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="dentisterie-esthetique-contact">
+      <button class="button"><a class="link-contact" href="rdv.html"><span>Prendre un RDV </span></a></button>
+      <button class="button"><a class="link-contact" href="devis.html"><span>Avoir un devis en ligne !</span></a></button>
+     </div>
+    </div>
+
+
+
+<div class="titre-localisation">
+  <h1 id="titre-localisation">Ou sommes nous ?</h1>
+</div>
+<div style="width: 100%;border: rgba(0, 0, 0, 0.356);">
+  <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.925803982002!2d3.0328237147780452!3d36.74835197831714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb3ee71c8c4bd%3A0xe6192a7e5cc0f28!2sHarmony%20clinic!5e0!3m2!1sfr!2sdz!4v1646332306931!5m2!1sfr!2sdz" width="100%" height="500" style="border:0; border-radius: 10px;border: rgba(0, 0, 0, 0.356);" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<footer>
+  <DIV class="footer-services">
+    <div class="footer-logo-services">
+      <img class="footer-logo-img-services "  src="photo de couverture.jpg">
+    </div>
+    <div   class="column-footer-services" id="adresse">
+      <h4>Clinique</h4>
+      <h6>  05 Rue Omar CHICHE, Hydra</h6>
+    </div>
+    <div  class="column-footer-services" id="telephone">
+      <h4>Contactez Nous</h4>
+      
+      <h6>0697 06 29 65</h6>
+    </div>
+    <div class="column-footer-services" id="reseaux-sociaux">
+      <h4>Reseaux-sociaux</h4>
+      <a href="https://web.facebook.com/profile.php?id=100047124621986&_rdc=1&_rdr" class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com/dr_bouziane_amine/?hl=fr" class="fa fa-instagram"></a>
+    </div>
+    <div><h6 class="copyright">copyright 2022</h6></div>
+  </DIV>
+  </footer>    
+
+      
+  
+  
+  
+  
+  
+  
+    
+          
+          <script src="js.js" async defer></script>
+      </body>
+  </html>
