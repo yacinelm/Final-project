@@ -1,137 +1,132 @@
-.dentisterie-esthetique-cover{
-    display: flex;
-    width: 100%;
+.dentisterie-esthetique-cover {
+  display: flex;
+  width: 100%;
 }
 
-#dentisterie-esthetique-cover{
-    display: flex;
-    width: 100%;
-    height: 500px;
-    
+#dentisterie-esthetique-cover {
+  display: flex;
+  width: 100%;
+  height: 500px;
 }
 
-.Titre-Rdv-contact-form{
-    display: flex;
-    position: static;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: 200px;
-    font-family: 'Parisienne', cursive;
-    font-size: 35px;
-   padding-top: 10px;
-   margin: 50px;
+.Titre-Rdv-contact-form {
+  display: flex;
+  position: static;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  font-family: "Parisienne", cursive;
+  font-size: 35px;
+  padding-top: 10px;
+  margin: 50px;
 }
 
 /*-----------------------------------------------------------------------------------*/
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-family: 'poppins';
-    font-weight: bolder;
-    font-size: larger;
-  
-  }
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: "poppins";
+  font-weight: bolder;
+  font-size: larger;
+}
 
- 
+input[type="number"] {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: "poppins";
+  font-weight: bolder;
+  font-size: larger;
+}
+input[type="date"] {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: "poppins";
+  font-weight: bolder;
+  font-size: larger;
+}
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #112977;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "poppins";
+  font-size: larger;
+}
+input[type="file"] {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: "poppins";
+  font-weight: bolder;
+  font-size: larger;
+  background-color: white;
+  color: #00031a;
+}
 
-  input[type=number]{
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-family: 'poppins';
-    font-weight: bolder;
-    font-size: larger;
-  }
-  input[type=date]{
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-family: 'poppins';
-    font-weight: bolder;
-    font-size: larger;
-  }
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #112977;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'poppins';
-    font-size: larger;
-  }
-  input[type=file]{
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-family: 'poppins';
-    font-weight: bolder;
-    font-size: larger;
-    background-color: white;
-    color: #00031a;
-  }
-  
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #00031a;
+}
+.Rdv-contact-form {
+  position: static;
+}
 
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #00031a;
-  }
-  .Rdv-contact-form{
-      position:static;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .Rdv-contact-form-container {
-    border-radius: 5px;
-    background-color:  rgba(0, 0, 0, 0.644);
-    padding: 20px;
-    color:white;
-    font-family:'poppins';
-    font-weight: bolder;
-    
-  }
-  /*---------------------------------------------------------------------------------------*/
-  .carte{
-      width: 100%;
-      height: 300px;
-     
-      position: absolute;
-      margin-top: 50px;
-  }
-  #carte{
-    width: 100%;
-    height: 300px;
-      }
+/* Add a background color and some padding around the form */
+.Rdv-contact-form-container {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.644);
+  padding: 20px;
+  color: white;
+  font-family: "poppins";
+  font-weight: bolder;
+}
+/*---------------------------------------------------------------------------------------*/
+.carte {
+  width: 100%;
+  height: 300px;
+
+  position: absolute;
+  margin-top: 50px;
+}
+#carte {
+  width: 100%;
+  height: 300px;
+}
 /*----------------------------------------------------------------------------------------*/
-  /*footer*/
-  
-.footer-services{
-  position:absolute;
+/*footer*/
+
+.footer-services {
+  position: absolute;
   width: 100%;
   height: 350px;
   display: flex;
@@ -139,26 +134,24 @@ input[type=text], select, textarea {
   justify-content: space-around;
   z-index: 1;
   border-radius: 10px;
-  background-color:  rgb(0, 0, 0);
- margin-top: 500px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 500px;
 }
 
-.footer-logo-img-services{
+.footer-logo-img-services {
   width: 300px;
   height: 100px;
   margin-top: 50px;
 }
 
-.column-footer-services{
+.column-footer-services {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family:'Poppins', sans-serif ;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   color: white;
 }
-
-
 
 .fa {
   padding: 20px;
@@ -177,7 +170,7 @@ input[type=text], select, textarea {
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
@@ -186,4 +179,3 @@ input[type=text], select, textarea {
   background: #ec6fe2;
   color: white;
 }
-

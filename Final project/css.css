@@ -1,36 +1,39 @@
-body{
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
   background-color: rgb(255, 255, 255);
 }
 
-
-
 .menu-icon {
-display: inline-block;
-cursor: pointer;
-z-index: 15;
-position: fixed;
-margin-left: 30px;
-margin-top: 55px;
-width: 35px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 15;
+  position: fixed;
+  margin-left: 30px;
+  margin-top: 55px;
+  width: 35px;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 35px;
   height: 5px;
   background-color: rgb(70, 17, 226);
   margin: 6px 0;
   transition: 0.4s;
-  
 }
 
-
-  /* The side navigation menu */
+/* The side navigation menu */
 .sidenav {
-  height:100%; /* 100% Full-height */
+  height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 30; /* Stay on top */
-  margin-top:0px; /* Stay at the top */
+  margin-top: 0px; /* Stay at the top */
   left: 0px;
   background-color: rgba(0, 0, 0, 0.644); /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
@@ -39,36 +42,30 @@ width: 35px;
   border-radius: 10px;
 }
 
-
-
-
 /* The navigation menu links */
-.sidenav a{
+.sidenav a {
   padding: 8px 8px 8px 60px;
-  width:auto;
+  width: auto;
   text-decoration: none;
   font-size: 35px;
   color: #f7f1f1;
-  display: block; 
+  display: block;
   transition: 0.3s;
-  font-family:'Poppins';
+  font-family: "Poppins";
   z-index: 30;
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover{
+.sidenav a:hover {
   color: #080808;
   background-color: aliceblue;
 }
-
-
 
 /* Active/current link */
 .sidenav a.active {
   background-color: #fffdfd;
   color: black;
 }
-
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
@@ -77,25 +74,23 @@ width: 35px;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-  
 }
 /*********drop down**********************************************************************************/
 .dropdown {
-  padding: ;
-  width:100%;
+  width: 100%;
   text-decoration: none;
   font-size: 35px;
   color: #f7f1f1;
-  display: block; 
+  display: block;
   transition: 0.3s;
-  font-family:'Poppins';
+  font-family: "Poppins";
 }
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #000000;
   width: 100%;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
   z-index: 20;
 }
 .dropdown:hover .dropdown-content {
@@ -104,34 +99,37 @@ width: 35px;
 .dropdown-content a {
   display: block;
   padding: 8px 8px 8px 50px;
-  width:100%;
+  width: 100%;
   text-decoration: none;
   font-size: 25px;
   color: #f7f1f1;
   transition: 0.3s;
-  font-family:'Poppins';
+  font-family: "Poppins";
   z-index: 20;
 }
 .dropdown-content a:hover {
-  color: #FFFFFF;
-  background-color: #00A4BD;
+  color: #ffffff;
+  background-color: #00a4bd;
 }
-
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   padding: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
 /*cover style*/
-.logo{
+.logo {
   display: flex;
   position: absolute;
   flex-direction: row;
@@ -143,9 +141,9 @@ width: 35px;
   background-size: cover;
   border-radius: 5px;
 }
-.first-page-cover{
+.first-page-cover {
   display: flex;
-  position:absolute;
+  position: absolute;
   width: 100%;
   height: 800px;
   z-index: 0;
@@ -155,18 +153,18 @@ width: 35px;
   background-repeat: no-repeat;
   border-radius: 10px;
 }
-#cover-heading{
+#cover-heading {
   display: flex;
   flex-direction: column;
   margin-left: 100px;
   align-self: center;
   position: absolute;
   color: rgba(224, 217, 217, 0.986);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   z-index: 2;
   font-size: 90px;
 }
-.heading-container{
+.heading-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,17 +175,17 @@ width: 35px;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.308);
 }
-.dr-profile{
+.dr-profile {
   width: 100%;
   height: 100px;
   display: flex;
+  justify-content: center;
   position: absolute;
   z-index: 1;
   margin-top: 1010px;
   height: 600px;
-  
 }
-#dr-profile{
+#dr-profile {
   display: flex;
   width: 40%;
   height: 610px;
@@ -195,22 +193,21 @@ width: 35px;
   z-index: 2;
   border-radius: 10px;
 }
-.titre-dr-profile{
+.titre-dr-profile {
   width: 100%;
-  height:200px ;
+  height: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   position: absolute;
   z-index: 1;
   margin-top: 800px;
-  
-  border-radius: 10px;
 
+  border-radius: 10px;
 }
-#titre-dr-profile{
+#titre-dr-profile {
   font-size: 80px;
-  font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
   font-weight: lighter;
   color: rgb(255, 255, 255);
   z-index: 2;
@@ -220,23 +217,24 @@ width: 35px;
   width: 900px;
   text-align: center;
 }
-#description-dr-profile{
+#description-dr-profile {
   display: flex;
   justify-content: center;
-  width: 55%;
-  padding: 10px;
-  font-size: 35px;
+  width: 30%;
+  padding: 10px 50px;
+  font-size: 23px;
   text-align: justify;
-  font-family:'Poppins', sans-serif ;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color:black;
+  color: black;
   border: solid 1px;
   border-radius: 10px;
   border-color: rgb(143, 144, 146);
   height: 590px;
   margin-left: 5px;
 }
-.titre-dr-services{
+
+.titre-dr-services {
   display: flex;
   position: absolute;
   flex-direction: row;
@@ -248,15 +246,14 @@ width: 35px;
   z-index: 2;
   top: 1640px;
 }
-#titre-dr-services{
+#titre-dr-services {
   margin-top: 50px;
-  font-family:'Dancing Script', cursive; 
+  font-family: "Dancing Script", cursive;
   font-size: 100px;
   font-weight: lighter;
-  
 }
 
-.services{
+.services {
   position: absolute;
   width: 100%;
   height: 400px;
@@ -269,20 +266,18 @@ width: 35px;
   margin-top: 1850px;
 }
 
-
-
 /*services*/
 .container {
   position: relative;
   display: flex;
   width: 350px;
   height: 300px;
-  
+
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  font-family:'Poppins', sans-serif ;
+  font-family: "Poppins", sans-serif;
   font-weight: bolder;
 }
 
@@ -302,8 +297,8 @@ width: 35px;
   overflow: hidden;
   width: 100%;
   border-radius: 10px;
-  height:0;
-  transition: .5s ease;
+  height: 0;
+  transition: 0.5s ease;
 }
 
 .container:hover .overlay {
@@ -322,7 +317,7 @@ width: 35px;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.contact-title{
+.contact-title {
   display: flex;
   position: absolute;
   flex-direction: row;
@@ -333,17 +328,17 @@ width: 35px;
   height: 200px;
   z-index: 2;
   top: 2240px;
-  }
+}
 
-#contact-title{
+#contact-title {
   margin-top: 50px;
-  font-family:'Dancing Script', cursive; 
+  font-family: "Dancing Script", cursive;
   font-size: 100px;
   font-weight: lighter;
- }
+}
 
- /*contact */
- .contact{
+/*contact */
+.contact {
   position: absolute;
   width: 100%;
   height: 200px;
@@ -351,13 +346,13 @@ width: 35px;
   flex-direction: row;
   justify-content: space-around;
   z-index: 3;
-  margin-top: 2450px
-} 
- .button {
+  margin-top: 2450px;
+}
+.button {
   border-radius: 4px;
   background-color: #080808cc;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 28px;
   padding: 20px;
@@ -367,19 +362,17 @@ width: 35px;
   margin: 5px;
 }
 
-
-
 .button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  font-family:'Poppins', sans-serif ;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
 }
 
 .button span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -396,12 +389,12 @@ width: 35px;
   right: 0;
 }
 
-.link-contact{
+.link-contact {
   color: aliceblue;
 }
 
 /*footer*/
-.footer{
+.footer {
   position: absolute;
   width: 100%;
   height: 350px;
@@ -411,25 +404,23 @@ width: 35px;
   z-index: 3;
   margin-top: 2750px;
   border-radius: 10px;
-  background-color:  rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
-.footer-logo-img{
+.footer-logo-img {
   width: 300px;
   height: 100px;
   margin-top: 50px;
 }
 
-.column-footer{
+.column-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family:'Poppins', sans-serif ;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   color: white;
 }
-
-
 
 .fa {
   padding: 20px;
@@ -448,7 +439,7 @@ width: 35px;
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
